@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+bin
+build
+dist
+lib
+packing
+Pipfile.lock
+*.egg-info
