@@ -13,6 +13,10 @@ python3 -m twine upload --repository testpypi dist/*
 pip install -i https://test.pypi.org/simple/ example-pkg-rcsoares
 ``
 
+``
+pip install example-pkg-rcsoares --no-index --find-links file:///./dist
+``
+
 # Poetry
 
 poetry is a command-line tool to handle dependency installation and isolation as well as building and packaging of Python packages. It uses pyproject.toml and, instead of depending on the resolver functionality within pip, provides its own dependency resolver. It attempts to speed users’ experience of installation and dependency resolution by locally caching metadata about dependencies.
